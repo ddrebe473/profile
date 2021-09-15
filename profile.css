@@ -1,0 +1,39 @@
+.trollface {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "chungus chungus troll troll"
+    "chungus chungus bruh bruh"
+    "chungus chungus hmmst yes"
+    "no no no no"
+    "why why why why";
+}
+
+div {
+  border: 1em double rgb(91, 91, 91);
+  color: white;
+  font-size: 20px;
+}
+
+.chungus {
+  grid-area: chungus;
+}
+.troll {
+  grid-area: troll;
+}
+.hmmst {
+  grid-area: hmmst;
+}
+.bruh {
+  grid-area: bruh;
+}
+.no {
+  grid-area: no;
+}
+.yes {
+  grid-area: yes;
+}
+.why {
+  grid-area: why;
+}
